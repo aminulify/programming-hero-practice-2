@@ -225,27 +225,51 @@ media queris
       width: 100%;
       height: 100%;
       justify-content: center;
+      overflow: hidden;
    }
    .top-blog{
       width: 100%;
       height: 100%;
+      overflow: hidden;
    }
    
-   .players, .top-blogs, .courses, .course{
+   .players, .top-blogs{
       grid-template-columns: repeat(1,1fr);
       overflow: hidden; 
    }
-   .courses, .course{
-    flex-direction: column;
-   }
+   
    .player{
       flex-direction: column;
       align-items: center;
    }
+   .response-course{
+     flex-direction: column;
+     display: flex;
+     align-items: center;
+     margin-left: 110px;
+     grid-row-gap: 20px;
+     
+
+
+   }
    .bolg-paragraph{
       padding-left: 20px;
+      overflow: hidden;
    }
-   
+   #work{
+      width: 450px;
+      height: 100%;
+      overflow: hidden;
+   }
+   #work h2{
+      margin-left: 70px;
+      margin-bottom: 50px;
+      overflow: hidden;
+   }
+   .section-title{
+      margin-left: 25px;
+      overflow: hidden;
+   }
   header {
      display: none;
   }
