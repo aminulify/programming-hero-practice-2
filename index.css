@@ -2,9 +2,10 @@
    padding: 0;
    margin: 0;
    font-family: 'Poppins', sans-serif;
+   scroll-behavior: smooth;
 }
 body{
-   scroll-behavior: smooth;
+
    background: #F3F1FF;
 
 }
@@ -68,22 +69,21 @@ li a:hover{
     
 } 
 
-
 /* end navbar */
 
 main{
    display: flex;
-   justify-content: center;
-   
+   flex-direction: column;
+   align-items: center;
 }
 .container{
    background: #fff;
    width: 870px;
-   height: 679px;
-   padding: 33px 30px;
+   height: 615px;
+   padding: 33px 30px 42px 30px;
    margin-top: 36px;
+   border-radius: 10px;
    box-shadow: 1px 1px 10px rgb(202, 190, 255);
-   
 }
 
 .section-title{
@@ -118,3 +118,52 @@ hr{
 .player-name{
    margin-left: 16px;
 }
+
+ /* top blog  */
+  /* top blog  */
+   /* top blog  */
+
+.top-blog .section-title{
+   margin-top: 30px;
+}
+
+.top-blogs img{
+   width: 177px;
+   height: 117px;
+   cursor: zoom-in;
+}
+.bolg-paragraph{
+   display: flex;
+}
+.top-blogs{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-row-gap: 26px;
+   grid-column-gap: 20px;
+}
+.blog-short{
+   margin-left: 16px;
+   line-height: 30px;
+}
+.blog-short h3{
+   font-size: 20px;
+   font-weight: 500;
+   margin-right: 30px;
+}
+.blog-short p{
+   color: #562EFF;
+   cursor: pointer;
+}
+.blog-short p span{
+   color: #9F9F9F;
+}
+/* lates course */
+/* lates course */
+/* lates course */
+
+
+#work{
+   width: 870px;
+   height: 362px;
+}
+
