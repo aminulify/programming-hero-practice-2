@@ -212,3 +212,42 @@ margin-bottom: 10px;
 main{
    margin-bottom: 100px;
 }
+
+
+/* ------------
+media queris 
+--------------*/
+
+/* For Mobile Devices */
+
+@media only screen and (max-width: 688px) {
+   .container{
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+   }
+   .top-blog{
+      width: 100%;
+      height: 100%;
+   }
+   
+   .players, .top-blogs, .courses, .course{
+      grid-template-columns: repeat(1,1fr);
+      overflow: hidden; 
+   }
+   .courses, .course{
+    flex-direction: column;
+   }
+   .player{
+      flex-direction: column;
+      align-items: center;
+   }
+   .bolg-paragraph{
+      padding-left: 20px;
+   }
+   
+  header {
+     display: none;
+  }
+ 
+}
